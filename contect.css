@@ -1,0 +1,132 @@
+ body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:cursive ;
+    
+}
+.contact{
+    position: relative;
+    min-height: 100px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     background: url("bg1.jpg");
+    background-size: cover;
+}
+
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h1{
+    font-size: 36px;
+    font-weight: 1000;
+    color: #110101;
+}
+.contact .content p{
+    font-weight: 300;
+    color: #7c260c;
+    font-size: larger;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container .contactInfo{
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 380px;
+}
+.container .contactInfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+
+}
+.container .contactInfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-size: 22px;
+    color: white;
+
+}
+.container .contactInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+.container .contactInfo .box .text h3{
+    font-weight: 500;
+    color: #050331;
+}
+.contactForm{
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+    border-radius: 10px;
+    height: 400px;
+    
+}
+.contactForm h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500px;
+}
+.contactForm .inputBox{
+    position: relative;
+    width: 100px;
+    margin-top: 10px;
+    
+}
+.contactForm .inputBox input,
+.contactForm .inputBox textarea{
+    width: 350px; 
+    padding: 5px 0;
+    font-size: 13px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    /* resize:none; */
+    font-family: cursive;
+}
+.contactForm .inputBox label{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 13px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+.contactForm .inputbox button{
+ background-color:#4267b2;
+ resize: none;
+ width: 300px;
+ height: 30px;
+ align-items: center;
+ margin-left: 30px;
+}
+/* .contact .content{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: -1rem 0;
+    margin: 9px 0;
+} */
+

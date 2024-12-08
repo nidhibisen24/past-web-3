@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Signup</title>
+    <script>
+        function validateForm() {
+            var username = document.forms["signupForm"]["username"].value;
+            var email = document.forms["signupForm"]["email"].value;
+            var password = document.forms["signupForm"]["password"].value;
+            var confirmPassword = document.forms["signupForm"]["confirmPassword"].value;
+
+            // Simple client-side validation
+            if (username === "" || email === "" || password === "" || confirmPassword === "") {
+                alert("All fields must be filled out");
+                return false;
+            }
+
+            if (password !== confirmPassword) {
+                alert("Passwords do not match");
+                return false;
+            }
+
+            // Additional validation can be added here (e.g., email format)
+
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <h2>Signup Form</h2>
+    <form name="signupForm" onsubmit="return validateForm()" action="signup.php" method="post">
+        <label for="username">Username:</label>
+        <input type="text" name="username" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" required><br><br>
+
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" name="confirmPassword" required><br><br>
+
+        <input type="submit" value="Signup">
+    </form>
+</body>
+</html>

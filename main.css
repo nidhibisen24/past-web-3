@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    background: #f2f2f2;
+}
+/* Style the navigation bar */
+nav ul {
+    list-style: none;
+    background-color:black;
+    padding: 0;
+    margin: 0;
+    /* text-align: center; */
+    padding-left: 350px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: cursive;
+}
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+}
+nav ul li a:hover{
+    color: cyan;
+    border-radius: 5px;
+    box-shadow: 0 0  5px #33ffff,
+                0 0  5px #66ffff;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    display: block;
+}
+/* Style the dropdown menu */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: black;
+    z-index: 1;
+    padding: 0;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    color: cyan;
+    box-shadow: none;
+    width: 100px;
+}
+.dropdown-menu li {
+    margin: 0;
+    text-align: center;
+}
+.dropdown-menu a {
+    padding: 10px 20px;
+    display: block;
+}
+/* Add hover effect to the dropdown items */
+.dropdown-menu a:hover {
+    background-color: black;
+}
+.div2{
+    padding-left: 80px;
+    color: #fff;
+    display: inline-block;
+}
+.shop-section{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+   /** border: 2px solid black;*/
+    height: 400px;
+    width:23% ;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.box-image{
+    height: 300px;
+    background-size:cover;
+    margin-top: 1rem;
+    margin-bottom: rem;
+}
+.box-content{
+margin-left: 10px;
+margin-right: 1rem;
+}
+.boxcontent p{
+   color:hwb(0 0% 100%); 
+   padding-bottom:9px;
+}
+.btn{
+    background-color:rgb(195, 194, 221);
+    
+}

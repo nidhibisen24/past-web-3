@@ -1,0 +1,16 @@
+.product {
+    margin-bottom: 10px;
+  }
+  
+  .wishlist {
+    margin-top: 20px;
+  }
+  
+  .wishlist ul {
+    list-style-type: none;
+  }
+  
+  .wishlist li {
+    margin-bottom: 5px;
+  }
+  
